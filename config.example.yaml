@@ -1,0 +1,19 @@
+dev: true
+
+server:
+  port: "6060"
+
+db:
+  user: "crk"
+  password: "123456"
+  address: "127.0.0.1:3306"
+  name: "little_vote"
+
+redis:
+  host: "127.0.0.1"
+  port: "6379"
+  db: 0
+  password:
+
+kafka:
+  address: "127.0.0.1:9092"
