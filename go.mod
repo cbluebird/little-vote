@@ -6,6 +6,8 @@ require (
 	github.com/IBM/sarama v1.45.1
 	github.com/gin-contrib/cors v1.7.4
 	github.com/gin-gonic/gin v1.10.0
+	github.com/graphql-go/graphql v0.8.1
+	github.com/graphql-go/handler v0.2.4
 	github.com/redis/go-redis/v9 v9.7.3
 	github.com/spf13/viper v1.20.1
 	gorm.io/driver/mysql v1.5.7

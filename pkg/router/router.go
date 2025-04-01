@@ -8,7 +8,6 @@ import (
 
 func Init(r *gin.Engine) {
 	path := r.Group("/api")
-	path.GET("/query", api.Query)
-	path.GET("/cas", api.Cas)
-	path.POST("/vote", api.Vote)
+	path.GET("/graphql", api.GraphqlHandler())
+	path.POST("/graphql", api.GraphqlHandler())
 }
